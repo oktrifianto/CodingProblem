@@ -20,7 +20,7 @@ Output  : 4321 (int)
 
 init reverse = 0
 
-*step 1*
+* Looping 1
 
 remainder  = 1234 % 10 = 4
 
@@ -29,7 +29,7 @@ reverse   = 0 * 10 + 4
 
 number will become 123
 
-*step 2*
+* Looping 2
 
 remainder = 123 % 10 = 3
 
@@ -38,7 +38,7 @@ reverse   = 4 * 10 + 3 = 43
 number will become 12
 
 
-* step 3*
+* Looping 3
 
 remainder = 12 % 10 = 2
 
@@ -46,7 +46,7 @@ reverse = 43 * 10 + 2 = 430 + 2 = 432
 
 number will become 1
 
-* step 4*
+* Looping 4
 
 remainder = 1 % 10 = 1
 
