@@ -3,10 +3,10 @@
  * @param         val {int}
  * @returns       int
  */
-const reverseNumber = (val) => {
+const reverseNumber = val => {
   let reverse = 0;
   while (val > 0){
-    remainder = val % 10;
+    remainder = val % 10; // get last digit
     reverse   = reverse * 10 + remainder;
     val       = Math.floor( val / 10 );
   }
