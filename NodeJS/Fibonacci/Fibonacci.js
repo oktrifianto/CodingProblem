@@ -15,10 +15,10 @@ const fib = val => {
     sum = a + b;
     a   = b;
     b   = sum;
-    val--
+    val--;
   }
 
-  return sum
+  return sum;
 }
 
 // Test Values //
