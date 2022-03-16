@@ -5,7 +5,7 @@
  */
 const factorial = n => {
   if (n == 0 || n == 1) return 1;
-  val = 1;
+  let val = 1;
   while (n > 1){
     val = val * n;
     n--;
