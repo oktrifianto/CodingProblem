@@ -11,13 +11,6 @@ const isPrime = number => {
 }
 
 // test //
-console.log(isPrime(0));
-console.log(isPrime(1));
-console.log(isPrime(2));
-console.log(isPrime(3)); 
-console.log(isPrime(10));
-console.log(isPrime(13));
-console.log(isPrime(19));
-console.log(isPrime(27));
-console.log(isPrime(25));
-console.log(isPrime(29));
+const dataTest = [0, 1, 2, 3, 10, 19, 27, 25, 29];
+for (let i = 0; i < dataTest.length; i++)
+  console.log(isPrime(dataTest[i]));
